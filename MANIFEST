@@ -1,0 +1,8 @@
+Changes
+LICENSE
+MANIFEST
+Makefile.PL
+lib/Algorithm/Numerical/Sample.pm
+t/000_tests.t
+README
+META.yml                                 Module meta-data (added by MakeMaker)
