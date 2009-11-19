@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Algorithm-Numerical-Sample
-version:            2009102701
+version:            2009112001
 abstract:           Draw samples from a set
 author:
     - Abigail <cpan@abigail.be>
@@ -8,10 +8,19 @@ license:            mit
 distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
+    strict:               0
+    Test::More:           0.88
+    warnings:             0
 build_requires:
     ExtUtils::MakeMaker:  0
+    strict:               0
+    Test::More:           0.88
+    warnings:             0
 requires:
-    perl:  5.006
+    Exporter:  0
+    perl:      5.006
+    strict:    0
+    warnings:  0
 resources:
     repository:  git://github.com/Abigail/algorithm--numerical--sample.git
 no_index:
@@ -22,7 +31,8 @@ generated_by:       ExtUtils::MakeMaker version 6.55_02
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
-keywords:
-    - algorithm
-    - numerical
-    - sample
+keywords:  []
+test_requires:
+    strict:      0
+    Test::More:  0.88
+    warnings:    0
