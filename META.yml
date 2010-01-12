@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Algorithm-Numerical-Sample
-version:            2009112001
+version:            2010011201
 abstract:           Draw samples from a set
 author:
     - Abigail <cpan@abigail.be>
@@ -27,7 +27,7 @@ no_index:
     directory:
         - t
         - inc
-generated_by:       ExtUtils::MakeMaker version 6.55_02
+generated_by:       ExtUtils::MakeMaker version 6.56
 meta-spec:
     url:      http://module-build.sourceforge.net/META-spec-v1.4.html
     version:  1.4
